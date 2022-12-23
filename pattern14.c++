@@ -14,7 +14,7 @@ int main(){
             cout<<ch;
             ch++;
             col++;
-        }
+        } 
         cout<<endl;
         row++;
     }
