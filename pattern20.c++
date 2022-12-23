@@ -1,4 +1,4 @@
-//180 reverse spaces triangle
+//spaces number triangle pattern
 #include<iostream>
 using namespace std;
 
@@ -8,7 +8,7 @@ int main(){
     cout<<"Enter a number"<<endl;
     cin>>num;
     while(row<=num){
-        //printing spaces
+        //printing a spaces
         int space = row - 1;
         while(space){
             cout<<" ";
@@ -18,7 +18,7 @@ int main(){
         int temp = num;
         temp = num - row + 1;
         while(col<=temp){
-            cout<<"*";
+            cout<<row;
             col++;
         }
         cout<<endl;
